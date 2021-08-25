@@ -5,7 +5,7 @@ const twitterData = new TwitterData(process.env.TWITTER_BEARER_TOKEN);
 
 let userId = '';
 let name = '';
-let username = 'rleshner';
+let username = 'DavidAKillen';
 
 const getUserDataAndTweets = async (_username) => {
   const userData = await twitterData.getUserData(_username);
